@@ -15,7 +15,7 @@ pipeline
 steps{
         checkout scm
     }
-  /*  }
+    }
     
      stage('NPM INSTALL'){
        steps{
@@ -49,3 +49,4 @@ stage('Push Docker Image to ECR') {
             } 
         } 
         }
+    }
