@@ -35,7 +35,7 @@ steps{
                 sh 'docker build -t demoangular .' 
             } 
         } 
-
+    
 
 stage('Push Docker Image to ECR') { 
             steps { 
@@ -50,3 +50,4 @@ stage('Push Docker Image to ECR') {
         } 
         }
     }
+}
